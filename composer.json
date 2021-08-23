@@ -1,0 +1,22 @@
+{
+    "name": "wangqs/querylist-rule-baidu-news",
+    "description": "QueryList Plugin: Baidu News searcher. QueryList百度资讯频道搜索插件",
+    "require": {
+        "PHP":">=7.0"
+    },
+    "require-dev": {
+        "jaeger/querylist": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "QL\\Ext\\": ""
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wangqs",
+            "email": "wqsacy@vip.qq.com"
+        }
+    ]
+}
