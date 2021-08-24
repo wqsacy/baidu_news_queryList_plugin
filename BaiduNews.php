@@ -22,7 +22,7 @@
 			'title' => [ 'h3' , 'text' ] ,
 			'link'  => [ 'h3>a' , 'href' ]
 		];
-		const RANGE = '.result';
+		const RANGE = '.result-op';
 		
 		public function __construct ( QueryList $ql , $pageNumber ) {
 			$this->ql         = $ql->rules( self::RULES )
