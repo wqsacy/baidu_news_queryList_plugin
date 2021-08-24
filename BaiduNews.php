@@ -84,6 +84,7 @@
 			$this->ql->get( self::API , [
 				'tn'  => 'news' ,
 				'rtt' => $this->rtt ,
+				'cl'  => 2 ,
 				'wd'  => $this->keyword ,
 				'rn'  => $this->pageNumber ,
 				'pn'  => $this->pageNumber * ( $page - 1 )
